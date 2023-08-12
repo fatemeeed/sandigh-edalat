@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Vazir' !important;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+ ********************************custom font size**********************************
+*/
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .main-header {
+        display: none;
+    }
+    .main-body{
+        /* position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+}
+
+.main{
+    width: 100%;
+    
+    
+}
+.main .sidebar{
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#0df3a3), to(#0ac282));
+    background: linear-gradient(to bottom, #808080, #434343);
+}
+
+main .main-header {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+main .main-body{
+    width: calc(100%-3rem);
+    border-radius: 0.25rem;
+
+}
