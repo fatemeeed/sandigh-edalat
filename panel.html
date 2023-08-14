@@ -18,12 +18,12 @@
         <section class="row  g-0">
             <section class="col-12 col-md-3">
                 <aside>
-                    <section class="sidebar py-3">
-                        <section class="sidebar-header d-flex flex-column justify-content-center align-items-center ">
+                    <section class="sidebar  pt-3">
+                        <section class="sidebar-header  d-flex flex-column justify-content-center align-items-center ">
                             <section class="sidebar-img">
                                 <img src="assets/images/logo.png" height="80px" alt="">
                             </section>
-                            <section class="sidebar-header-title text-light border-bottom">
+                            <section class="sidebar-header-title text-light ">
                                 <h6>صندوق قرض الحسنه عدالت مهدیشهر</h6>
                             </section>
                         </section>
@@ -71,23 +71,25 @@
             </section>
 
             <section class="col-12 col-md-9 ">
-                <main>
+                <main >
 
-                    <section class="main-header p-2 ">
+                    <section class="main-header ">
                         <section class="row g-0 ">
                             <section class="col-12">
                                 <section
-                                    class="header-body py-4 px-2 d-flex justify-content-between flex-row-reverse align-items-center  d-sm-none  d-md-flex">
-                                    <section class="header-user-name">
+                                    class="header-body  d-flex justify-content-between  align-items-center  d-sm-none  d-md-flex">
+                                    <section class="header-profile">
                                         <span class="login-light-icon"></span>
-                                        <h6>رضا امینی</h6>
+                                        <span class="header-username">کامران محمدی</span>
 
                                     </section>
                                     <section class="header-log">
 
 
                                         <a href="{{ route('auth.logout') }}" class="text-dark" title="خروج"><i
-                                                class="fas fa-sign-out-alt"></i></a>
+                                                class="fas fa-sign-out-alt fa-rotate-180"></i></a>
+                                        
+                                        
 
                                     </section>
 
@@ -95,20 +97,50 @@
                             </section>
                         </section>
                     </section>
-                    <section class="main-body bg-primary ">
-                        <section class="main-body-container">
-                            hello
+                    <section class="main-body">
+                        
+                        <section class="main-body-header">
+                            <h5>آخرین تراکنش ها</h5>
+
                         </section>
+
+                        <section class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th colspan="2"></th>
+                                        
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                
+                                    <tr>
+                                        <td>1402/05/22-پرداخت قسط</td>
+                                        <td>
+                                            
+                                            6,000,000 ریال
+                                            پرداخت موفق
+                                        </td>
+                                        
+                                        
+                                        
+                                    </tr>
+            
+             
+            
+                                </tbody>
+                            </table>
+                        </section>
+                       
                     </section>
-                    <section class="main-footer text-center">
-                        <p>کلیه حقوق مادی و معنوی مربوط به صندوق عدالت مهدیشهر می باشد - طرح و اجرا : کیانت</p>
+                    <section class="main-footer">
+                        <p>کلیه حقوق مادی و معنوی متعلق به صندوق قرض الحسنه عدالت مهدیشهر می باشد - طرح و اجرا : <a href="">کیانت</a></p>
                     </section>
                 </main>
             </section>
         </section>
-
-
-
 
 
     </section>
