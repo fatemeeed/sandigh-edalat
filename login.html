@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>ورود</title>
+</head>
+
+<body>
+
+    <section id="register">
+
+        <section class="row">
+
+
+            <section class="col-12">
+                
+                <section class="register-form">
+                    <section class="register-logo p-3">
+                        <img src="assets/images/logo.jpg" width="140px" alt="">
+                    </section>
+
+                    <h6>شماره موبایل خود را وارد کنید</h6>
+                    <form>
+                       
+
+                        <section class="form-item">
+                            <i class="fas fa-mobile"></i>
+                            <input type="text" placeholder="شماره موبایل ">
+                        </section>
+
+                        <input type="submit" class="btn btn-sm btn-success" value="ورود">
+                    </form>
+                    <section class="login-terms-and-conditions d-flex flex-column">
+                       
+                        <a class="direction-none" href="{{ route('auth.register-form') }}">حساب کاربری ندارم !</a>
+                        <a href="{{ route('forget.password.form') }}">رمز خود را فراموش کردم</a>
+                    </section>
+                </section>
+            </section>
+            <!-- <section class="col-12 col-md-7">
+                <section class="auth-login">
+                    <img src="assets/images/Free_iPhone.png" width="80%" alt="">
+                    <section class="shape">
+                        <section></section>
+                        <section></section>
+                        <section></section>
+                        <section></section>
+                    </section>
+
+                </section>
+            </section> -->
+
+
+
+        </section>
+
+    </section>
+
+
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+</body>
+
+</html>
