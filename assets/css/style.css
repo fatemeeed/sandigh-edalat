@@ -10,6 +10,7 @@
 body {
     direction: rtl;
     font-family: 'Vazir' !important;
+    background-color: #F9F5F6;
 }
 
 * {
@@ -54,30 +55,59 @@ a {
 }
 
 header {
-    background-image: url('../images/header.png');
-    height: 200vh;
+    /* background-image: url('../images/header.png'); */
+   
+    height: 100vh;
     background-position: center;
     background-size: cover;
+    position: relative;
     
 }
+header::before {
+    content: '';
+    position: absolute;
+    border-bottom: 100vh solid #945EE6;
+	border-left: 0px solid transparent;
+	border-right: 30vh solid transparent;
+   
+	height: 100vh;
+	width: 30%;
+    left: 0;
+    bottom: 0;
+   
+    
+}
+
+
 
 header .login {
 
     cursor: pointer;
     padding: 10px 12px;
-    background-color: #945EE6;
+    background-color: #fff;
     border-radius: 25px 5px 25px 5px;
     font-size: 0.8rem;
-    color: #fff;
-    border: 2px solid #945EE6;
-    transition: .2s transform ease-in-out;
+    color: #945EE6;
+    border: 2px solid #fff;
+    transition: .1s transform ease-in-out;
     will-change: transform;
     z-index: 0;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
  
 
 }
+header .login a{
+    display: block;
+}
+header .login:hover{
 
+    color: #fff;
+    background-color: #45DC00;
+    border: 2px solid #45DC00;
+}
 
+/* 
 header .login::after {
     background-color: #fff;
     border-radius: 25px 0px 25px 0px;
@@ -108,20 +138,24 @@ header .login:hover {
     transform: scale(1.05);
     will-change: transform;
     color: #945EE6;
-}
+} */
 
 
 header .header {
     width: 100%;
     position: relative;
+   
+    border-radius: 30px;
+    position: relative;
 }
+
 
 header .header img {
 
     position: absolute;
-    left: -113px;
+    left: -100px;
     top: -50px;
-    width: 550px;
+    width: 500px;
 
 }
 
@@ -216,7 +250,7 @@ header .header .header-content {
 
 .header .header-content .header-title h6 {
     font-weight: bold;
-    color: #fff;
+    color: #000;
 }
 
 .header .header-content .header-title h3 {
@@ -228,7 +262,7 @@ header .header .header-content {
 
 .header .header-content .header-option h6 {
     
-    color: #fff;
+    color: #000;
 }
 
 /* .header .header-content .header-title h3 span{
