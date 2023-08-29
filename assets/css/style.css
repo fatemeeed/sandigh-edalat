@@ -110,7 +110,7 @@ header::before {
     height: 100%;
     background-position: center;
     background-size: cover;
-    opacity: .5;
+    opacity: .6;
     border-radius: 160px;
 }
 
@@ -205,7 +205,7 @@ header .header img {
     position: absolute;
     left: -100px;
     top: -50px;
-    width: 550px;
+    width: 580px;
 
 }
 
@@ -429,6 +429,9 @@ header .header .header-content {
     border-radius: 30px 5px 30px 5px;
     background-color: #dbcfec;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -447,14 +450,20 @@ header .header .header-content {
 .about-us .about-card .field .field-title {
     color: #45DC00;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-color: #fdf7ff;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+.about-us .about-card .field .content{
+    color: #707070;
+    font-size: 12px;
+    line-height: 25px;
+}
+
 
 /* .about-us .title {
     position: relative;
@@ -485,7 +494,8 @@ header .header .header-content {
 } */
 
 /* news */
-.news {
+.news{
+
     width: 100%;
     background-color: #7a49c6;
     border-radius: 160px 0 0 160px;
@@ -505,13 +515,15 @@ header .header .header-content {
 
 }
 
-.contact .info {
+.contact .contact-option {
 
-    /* background-color: #fff;
-    border-radius: 50px 5px 50px 5px;
-    padding: 20px;
-    margin: auto; */
+   background-color: #e1f8d4;
+   padding: 30px 0;
+   border-radius: 30px 0 30px 0;
 
+}
+.contact .contact-option svg{
+    color: #7a49c6;
 }
 
 /* footer */
