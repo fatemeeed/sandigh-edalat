@@ -91,9 +91,29 @@ nav{
     z-index: 1000;
 }
 
-.btn-success{
-    background-color: #45DC00!important;
+.btn-default{
+    background-color: #45DC00;
+    padding: 10px!important;
+    font-size: 12px;
+    color: #fff;
 }
+.btn-default:hover{
+    border: 1px solid #45DC00;
+    background-color: transparent;
+    color: #45DC00;
+}
+.btn-default-outline{
+    border: 1px solid #45DC00;
+    background-color: transparent;
+    color: #45DC00;
+
+}
+.btn-default-outline:hover{
+    color: #fff;
+    background-color: #45DC00;
+
+}
+
 
 header {
     
@@ -110,7 +130,7 @@ header {
 header::before{
     content: '';
     position: absolute;
-    background-image: url('../images/Group\ 24\(1\).png');
+    background-image: url('../images/header.png');
     background-position: center;
     background-size: cover;
     /* transform: rotate(18deg); */
@@ -452,7 +472,6 @@ header .header .header-content {
     display: flex;
     justify-content: center;
     align-items: center;
-   
     padding: 100px 0 0 0;
 
 }
@@ -464,17 +483,14 @@ header .header .header-content {
     align-items: center;
     position: relative;
     width: 100%;
+    font-size: 30px;
     
-    padding: 50px 0;
-    
-
 
 }
 .counter .counter-item::before{
     content: '';
     position: absolute;
     background-image: url('../images/logo.png') ;
-  
     background-position: center;
     background-size: cover;
     width: 30%;
@@ -482,7 +498,6 @@ header .header .header-content {
     opacity: 0.3;
     padding: 50px;
     
-
 }
 .counter .counter-item .counet-number{
     font-family: 'Yekan';
@@ -490,7 +505,6 @@ header .header .header-content {
 }
 .counter .counter-item .counet-number h4{
     z-index: 100;
-    font-size:60px;
    
 }
 
